@@ -76,7 +76,7 @@ export default {
         curve: "smooth",
         show: true,
         width: 3,
-        colors: [this.layoutConfig("colors.theme.base.success")]
+        colors: ['#FFA800']
       },
       xaxis: {
         categories: ["Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"],
@@ -152,10 +152,10 @@ export default {
           }
         }
       },
-      colors: [this.layoutConfig("colors.theme.light.success")],
+      colors: ['#FFA800'],
       markers: {
-        colors: [this.layoutConfig("colors.theme.light.success")],
-        strokeColor: [this.layoutConfig("colors.theme.base.success")],
+        colors: ['#FFA800'],
+        strokeColor: ['#FFA800'],
         strokeWidth: 3
       },
       grid: {

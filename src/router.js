@@ -21,6 +21,11 @@ export default new Router({
           component: () => import("@/view/pages/Builder.vue")
         },
         {
+          path: "/sales-order",
+          name: "sales-order",
+          component: () => import("@/view/pages/main/SalesOrder.vue")
+        },
+        {
           path: "/vue-bootstrap",
           name: "vue-bootstrap",
           component: () =>

@@ -41,7 +41,7 @@
     </router-link>
 
     <router-link
-      to="/builder"
+      to="/sales-order"
       v-slot="{ href, navigate, isActive, isExactActive }"
     >
       <li
