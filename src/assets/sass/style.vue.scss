@@ -71,14 +71,28 @@
   border-right: 1px solid #ebe9f1;
 }
 
-.true{
-  color: #F64E60;
+.true {
+  color: #f64e60;
 }
 
-.false{
-  color: #1BC5BD;
+.false {
+  color: #1bc5bd;
 }
 
-div#kt_header{
+div#kt_header {
   background-color: #1a1a27;
+}
+
+.card-body .nav.nav-tabs{
+  display: none !important;
+}
+
+.mx-datepicker{
+  width: 100% !important;
+}
+
+.results{
+  color: #B5B5C3;
+  font-style: italic;
+  font-size: medium;
 }
